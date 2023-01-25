@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(128, 225, 217);
+}
+
+#buttons {
+    position: relative;
+    top: 40px;
+    right: 300px;
+}
+button {
+    color: black;
+    padding: 10px;
+    border-radius: 25%;
+    background-color: rgb(92, 178, 227);
+}
+
+#one, #two {
+    color: rgb(75, 7, 7);
+    margin: 5px;
+}
+
+input {
+    background-color: rgb(113, 160, 225);
+}
+
+#result {
+    position: relative;
+    top: 90px;
+    right: 400px;
+}
